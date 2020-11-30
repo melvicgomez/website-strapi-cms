@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "designs",
+  "info": {
+    "name": "Designs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "design_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "url_link": {
+      "type": "string"
+    },
+    "posted_date": {
+      "type": "date"
+    },
+    "visibility": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

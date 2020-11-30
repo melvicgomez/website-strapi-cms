@@ -1,0 +1,37 @@
+{
+  "name": "cms.melvicgomez.com",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CMS to manage my blogs, projects, and designs in my main website.",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.3.4",
+    "strapi-admin": "3.3.4",
+    "strapi-utils": "3.3.4",
+    "strapi-plugin-content-type-builder": "3.3.4",
+    "strapi-plugin-content-manager": "3.3.4",
+    "strapi-plugin-users-permissions": "3.3.4",
+    "strapi-plugin-email": "3.3.4",
+    "strapi-plugin-upload": "3.3.4",
+    "strapi-connector-bookshelf": "3.3.4",
+    "knex": "<0.20.0",
+    "mysql": "latest"
+  },
+  "author": {
+    "name": "Melvic Gomez <melvicgomez.ph@gmail.com>"
+  },
+  "strapi": {
+    "uuid": "98c3f48c-a964-44ce-9b97-9e51a1d15f4f"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
