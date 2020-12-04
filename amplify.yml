@@ -5,7 +5,7 @@ frontend:
       commands:
         - npm ci
         - chmod +x export-env.sh
-        - export-env.sh
+        - ./export-env.sh
     build:
       commands:
         - npm run build
