@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "designs",
   "info": {
-    "name": "Designs"
+    "name": "Designs",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -32,10 +33,6 @@
     },
     "posted_date": {
       "type": "date"
-    },
-    "visibility": {
-      "type": "boolean",
-      "default": true
     }
   }
 }

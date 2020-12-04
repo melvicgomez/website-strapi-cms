@@ -31,12 +31,14 @@
     "url_link": {
       "type": "string"
     },
-    "visibility": {
-      "type": "boolean",
-      "default": true
-    },
     "posted_date": {
       "type": "date"
+    },
+    "tech_stack": {
+      "type": "string"
+    },
+    "repository_link": {
+      "type": "string"
     }
   }
 }

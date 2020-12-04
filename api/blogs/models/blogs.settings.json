@@ -31,14 +31,13 @@
       "plugin": "upload",
       "required": false
     },
-    "visibility": {
-      "type": "boolean",
-      "default": true
-    },
     "tags": {
       "type": "string"
     },
     "author": {
+      "type": "string"
+    },
+    "slug": {
       "type": "string"
     }
   }
