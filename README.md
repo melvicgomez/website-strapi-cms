@@ -1,3 +1,3 @@
-# Strapi application
+# Strapi CMS
 
-A quick description of your strapi application
+CMS application for my personal website www.melvicgomez.com, this app helps me manage my contents in blogs, projects, and designs.
